@@ -1,0 +1,30 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.overlay {
+  background-image: url('https://images.pexels.com/photos/390392/pexels-photo-390392.jpeg?auto=compress&cs=tinysrgb&h=650&w=940');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  filter: brightness(50%);
+
+  /* -webkit-filter: brightness(50%);
+-moz-filter: brightness(50%);
+-o-filter: brightness(50%);
+-ms-filter: brightness(50%); */
+  /*   filter : blur(7px);
+*/
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #f1f1f1;
+  transform: translate(-50%, -50%);
+}
