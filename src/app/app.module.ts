@@ -17,6 +17,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { JobsComponent } from './jobs/jobs.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { FooterComponent } from './footer/footer.component';
+import { LandingComponent } from './landing/landing.component';
 
 @NgModule({
   imports: [
@@ -41,7 +42,8 @@ import { FooterComponent } from './footer/footer.component';
     NavBarComponent,
     JobsComponent,
     SignUpComponent,
-    FooterComponent
+    FooterComponent,
+    LandingComponent
   ],
   bootstrap: [AppComponent]
 })
