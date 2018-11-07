@@ -16,6 +16,7 @@ import { MessagesComponent } from './messages/messages.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { JobsComponent } from './jobs/jobs.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   imports: [
@@ -39,7 +40,8 @@ import { SignUpComponent } from './sign-up/sign-up.component';
     HeroSearchComponent,
     NavBarComponent,
     JobsComponent,
-    SignUpComponent
+    SignUpComponent,
+    FooterComponent
   ],
   bootstrap: [AppComponent]
 })
